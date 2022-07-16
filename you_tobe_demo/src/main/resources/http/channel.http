@@ -1,0 +1,11 @@
+POST http://localhost:8084/channel
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2NTc2NDA2OTYsImV4cCI6MTY1NzcyNzA5NiwiaXNzIjoiTWF6Z2kgcHJvZHVjdGlvbiIsImlkIjoxfQ.RW7GwZm-Z8FDFDd5D9egJu7p8dg2py9BlZumk02npJg
+
+{
+  "name": "name"
+}
+
+###
+GET http://localhost:8084/channel/adm/pagination?page=0&size=2
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2NTc2NDA2OTYsImV4cCI6MTY1NzcyNzA5NiwiaXNzIjoiTWF6Z2kgcHJvZHVjdGlvbiIsImlkIjoxfQ.RW7GwZm-Z8FDFDd5D9egJu7p8dg2py9BlZumk02npJg

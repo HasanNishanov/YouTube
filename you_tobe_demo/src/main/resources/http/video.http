@@ -1,0 +1,11 @@
+POST http://localhost:8084/video
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2NTc2NDA2OTYsImV4cCI6MTY1NzcyNzA5NiwiaXNzIjoiTWF6Z2kgcHJvZHVjdGlvbiIsImlkIjoxfQ.RW7GwZm-Z8FDFDd5D9egJu7p8dg2py9BlZumk02npJg
+
+{
+  "name": "name",
+  "description": "description",
+  "attach": "4028abcd81f317940181f31970420001",
+  "tags":  ["#1","#s","#E","#E"],
+  "channelId": "4028abcd81f3131f0181f316075a0000"
+}

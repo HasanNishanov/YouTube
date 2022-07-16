@@ -1,0 +1,27 @@
+POST http://localhost:8084/category/adm
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2NTcxMDMxNzgsImV4cCI6MTY1NzE4OTU3OCwiaXNzIjoiTWF6Z2kgcHJvZHVjdGlvbiIsImlkIjoyfQ.fGizfDIMNTm7yhvOexnj-poawBR_4bShRf1GXMLulbY
+
+
+{
+  "name": "Bolalar uchun"
+
+}
+
+###
+PUT http://localhost:8080/category/1
+Content-Type: application/json
+Authorization:eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2NTQ5MzA4OTYsImV4cCI6MTY1NDkzNDQ5NiwiaXNzIjoiTWF6Z2kgcHJvZHVjdGlvbiIsImlkIjoxLCJyb2xlIjoiQURNSU4ifQ.hhtD4MGhdAyvIRlEBcQL8r3oQ6k_HVvMU1F_UWpyC2I
+
+{
+  "name": "categoryUzUpdate"
+}
+
+###
+GET http://localhost:8080/category/list
+Authorization:eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2NTQ5MzA4OTYsImV4cCI6MTY1NDkzNDQ5NiwiaXNzIjoiTWF6Z2kgcHJvZHVjdGlvbiIsImlkIjoxLCJyb2xlIjoiQURNSU4ifQ.hhtD4MGhdAyvIRlEBcQL8r3oQ6k_HVvMU1F_UWpyC2I
+
+
+###
+DELETE http://localhost:8080/category/1
+Authorization:eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2NTQ5MzA4OTYsImV4cCI6MTY1NDkzNDQ5NiwiaXNzIjoiTWF6Z2kgcHJvZHVjdGlvbiIsImlkIjoxLCJyb2xlIjoiQURNSU4ifQ.hhtD4MGhdAyvIRlEBcQL8r3oQ6k_HVvMU1F_UWpyC2I

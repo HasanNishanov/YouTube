@@ -1,0 +1,25 @@
+POST http://localhost:8084/playlist
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2NTc3MDMyNjUsImV4cCI6MTY1Nzc4OTY2NSwiaXNzIjoiTWF6Z2kgcHJvZHVjdGlvbiIsImlkIjoxfQ.p0DPzE521Is3IWL3Y6s83raWxSgry-Y7hrmmxrSontQ
+
+{
+  "channelId": "4028abcd81f3131f0181f316075a0000",
+  "name": "name",
+  "attachId": "8a8a834481f6cf9d0181f6d38b830000"
+}
+
+###
+PUT http://localhost:8084/playlist/8a8a834481f6cf9d0181f6d3e7f40001
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2NTc3MDMyNjUsImV4cCI6MTY1Nzc4OTY2NSwiaXNzIjoiTWF6Z2kgcHJvZHVjdGlvbiIsImlkIjoxfQ.p0DPzE521Is3IWL3Y6s83raWxSgry-Y7hrmmxrSontQ
+
+{
+  "name": "update",
+  "attachId": "8a8a834481f6cf9d0181f6d53d380002",
+  "status": "BLOCKED"
+}
+
+###
+GET http://localhost:8084/playlist/adm/pagination?page=0&size=2
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2NTc3MTM3MDksImV4cCI6MTY1NzgwMDEwOSwiaXNzIjoiTWF6Z2kgcHJvZHVjdGlvbiIsImlkIjoxfQ.r3vurbrOp_rcJH8RF-ybQ5PmVpsdkqZFI2mEB9yac5I
+

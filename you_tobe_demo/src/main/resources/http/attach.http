@@ -1,0 +1,35 @@
+POST http://localhost:8084/attach/upload
+Content-Type: multipart/form-data; boundary=WebAppBoundary
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2NTc3MDMyNjUsImV4cCI6MTY1Nzc4OTY2NSwiaXNzIjoiTWF6Z2kgcHJvZHVjdGlvbiIsImlkIjoxfQ.p0DPzE521Is3IWL3Y6s83raWxSgry-Y7hrmmxrSontQ
+
+--WebAppBoundary
+Content-Disposition: form-data; name="file"; filename="p1.jfif"
+
+< C:\Users\user\Desktop\p1.jfif
+
+###
+GET http://localhost:8080/attach/open?fileId=4028abcd8185de72018185e268460000
+
+###
+
+DELETE http://localhost:8080/attach/deleted?fileId=4028abcd8185de72018185e268460000
+
+###
+
+GET http://localhost:8080/attach/pagination?page=1&size=2
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2NTYwNTg1NTUsImV4cCI6MTY1NjE0NDk1NSwiaXNzIjoiTWF6Z2kgcHJvZHVjdGlvbiIsImlkIjoyLCJyb2xlIjoiQURNSU4ifQ.geD57-Yuxxx3-eghRb_RcY0H604CuFwuY4H2RwXifWM
+
+###
+
+POST http://localhost:8084/attach/upload
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2NTc2NDA2OTYsImV4cCI6MTY1NzcyNzA5NiwiaXNzIjoiTWF6Z2kgcHJvZHVjdGlvbiIsImlkIjoxfQ.RW7GwZm-Z8FDFDd5D9egJu7p8dg2py9BlZumk02npJg
+Content-Type: multipart/form-data; boundary=WebAppBoundary
+Content-Type: application/json
+
+
+--WebAppBoundary
+Content-Disposition: form-data; name="file"; filename="video.mp4"
+
+< C:\Users\user\Desktop\video.mp4
+

@@ -1,0 +1,39 @@
+### ADMIN
+POST http://localhost:8080/auth/login
+Content-Type: application/json
+
+{
+  "phoneNumber": "123456789",
+  "password": "1234aA_"
+}
+
+###USER
+POST http://localhost:8084/auth/registration
+Content-Type: application/json
+
+{
+  "email": "12345689",
+  "password": "12345689",
+  "username": "12345689"
+
+}
+
+###ADMIN
+POST http://localhost:8084/auth/login
+Content-Type: application/json
+
+{
+  "email": "12345689",
+  "password": "12345689"
+}
+
+###
+
+
+POST https://carpetwep.herokuapp.com/auth/login
+Content-Type: application/json
+
+{
+  "phoneNumber": "123456789",
+  "password": "1234aA_"
+}

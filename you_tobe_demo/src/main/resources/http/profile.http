@@ -1,0 +1,7 @@
+POST http://localhost:8084/profile/change_pass
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2NTcwODkxMDksImV4cCI6MTY1NzE3NTUwOSwiaXNzIjoiTWF6Z2kgcHJvZHVjdGlvbiIsImlkIjoyfQ.nXWQeKFjqUHNxAb-JMfLScwdsyeZC5ihSCfj8qHgAHE
+
+{
+  "password": "password"
+}
